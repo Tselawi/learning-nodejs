@@ -1,0 +1,26 @@
+{
+  "name": "holidayapp",
+  "version": "1.0.0",
+  "description": "show the public holidays in different country",
+  "main": "index.js",
+  "scripts": {
+    "holidates": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tselawi/learning-nodejs.git"
+  },
+  "author": "Tariq Selawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tselawi/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/Tselawi/learning-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^2.4.2",
+    "country-list": "^2.2.0",
+    "figlet": "^1.5.0",
+    "holidates": "^1.0.0"
+  }
+}
