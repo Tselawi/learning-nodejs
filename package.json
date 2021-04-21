@@ -3,9 +3,7 @@
   "version": "1.0.3",
   "description": "Display public holidays to the countries",
   "main": "index.js",
-  "bin": {
-    "holidates": "./index.js"
-  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tselawi/learning-nodejs.git"
@@ -25,5 +23,8 @@
     "chalk": "^4.1.1",
     "country-list": "^2.2.0",
     "figlet": "^1.5.0"
+  },
+  "bin": {
+    "holidates": "./index.js"
   }
 }
