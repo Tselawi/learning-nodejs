@@ -1,7 +1,7 @@
 ## Holidays-country-list
 
 ## Installation
-```npm install holidayapp```
+```npm install holidaycountryapp```
 
 ## Example 
 ```
