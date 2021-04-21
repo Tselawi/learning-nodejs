@@ -1,9 +1,8 @@
 {
   "name": "holidaycountryapp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Display public holidays to the countries",
   "main": "index.js",
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tselawi/learning-nodejs.git"
