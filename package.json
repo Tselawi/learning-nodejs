@@ -1,14 +1,21 @@
 {
-  "name": "holidaycountryapp",
-  "version": "1.0.4",
-  "description": "Display public holidays to the countries",
+  "name": "goholidays",
+  "version": "1.0.0",
+  "description": "Display public holidays for countries",
   "main": "index.js",
+  "bin": {
+    "holidates": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tselawi/learning-nodejs.git"
   },
   "keywords": [
     "npm",
+    "holidays",
     "holidates"
   ],
   "author": "Tariq Selawi",
@@ -22,8 +29,5 @@
     "chalk": "^4.1.1",
     "country-list": "^2.2.0",
     "figlet": "^1.5.0"
-  },
-  "bin": {
-    "holidates": "./index.js"
   }
 }

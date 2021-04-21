@@ -45,3 +45,6 @@ if you have two country parameter it won't work
 - Chalk: (https://www.npmjs.com/package/chalk)
 - figlet: (https://www.npmjs.com/package/figlet)
 
+"bin": {
+    "holidates": "./index.js"
+  },

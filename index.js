@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var figlet = require('figlet');
+let figlet = require('figlet');
 const { getCode, getName } = require('country-list');
 const axios = require('axios').default;
 const chalk = require('chalk');
