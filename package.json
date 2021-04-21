@@ -1,10 +1,13 @@
 {
   "name": "holidayapp",
-  "version": "1.0.0",
-  "description": "show the public holidays in different country",
+  "version": "1.0.2",
+  "description": "Show the public holidays in different country",
   "main": "index.js",
+  "bin": {
+    "holidates": "./index.js"
+  },
   "scripts": {
-    "holidates": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,7 +23,6 @@
     "axios": "^0.21.1",
     "chalk": "^2.4.2",
     "country-list": "^2.2.0",
-    "figlet": "^1.5.0",
-    "holidates": "^1.0.0"
+    "figlet": "^1.5.0"
   }
 }
