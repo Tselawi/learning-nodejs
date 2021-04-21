@@ -1,13 +1,10 @@
 {
   "name": "holidaycountryapp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Display public holidays to the countries",
   "main": "index.js",
   "bin": {
     "holidates": "./index.js"
-  },
-  "scripts": {
-    "start": "node ."
   },
   "repository": {
     "type": "git",
