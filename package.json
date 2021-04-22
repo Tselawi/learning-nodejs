@@ -1,6 +1,6 @@
 {
   "name": "goholidays",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Display public holidays for countries",
   "main": "index.js",
   "bin": {
