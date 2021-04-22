@@ -1,13 +1,8 @@
 ## Holidays-country-list
 
-## Installation
-```npm install goholidays```
+## Installation & Example 
+```npx goholidays 2021 France```
 
-## Example 
-```
-$holidates $years $countryname
-$holidates 2021 France          
-```
 ## Output 
 ``` 
  __        __   _                            _          _____ ____    _ _ 
@@ -44,7 +39,3 @@ if you have two country parameter it won't work
 - AXIOS: (https://www.npmjs.com/package/axios#axios-api)
 - Chalk: (https://www.npmjs.com/package/chalk)
 - figlet: (https://www.npmjs.com/package/figlet)
-
-"bin": {
-    "holidates": "./index.js"
-  },
